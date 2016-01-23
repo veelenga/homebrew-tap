@@ -12,7 +12,4 @@ class Vicr < Formula
     system "make"
     bin.install "out/vicr"
   end
-
-  test do
-  end
 end
