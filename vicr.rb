@@ -1,9 +1,9 @@
 class Vicr < Formula
   desc "Vim-like Interactive CRystal"
   homepage "https://github.com/veelenga/vicr"
-  url "https://github.com/veelenga/vicr/archive/v0.3.1.tar.gz"
-  version "0.3.1"
-  sha256 "b7c477c49f7323f71c090c4d5bd9071b94b6ea177c64dac3b071e5fb0b30139d"
+  url "https://github.com/veelenga/vicr/archive/v0.4.0.tar.gz"
+  version "0.4.0"
+  sha256 "d2fc3ca306a6144c628b1d301a2ce8e3baa82706b2af4a590c196b2876ae03e5"
   head "https://github.com/veelenga/vicr.git"
 
   depends_on "crystal-lang" => :build
