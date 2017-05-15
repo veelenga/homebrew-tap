@@ -9,8 +9,8 @@ class Dress < Formula
   depends_on "elixir" => :build
 
   def install
-    system "mix deps.get"
-    system "mix escript.build"
+    system "yes | mix deps.get"
+    system "yes | mix escript.build"
     bin.install "dress"
   end
 end
