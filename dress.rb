@@ -6,7 +6,7 @@ class Dress < Formula
   sha256 "d7c3a193ad257282aefbbd864eb76f532c2e10fb78b5931970f2f1af425aa51e"
   head "https://github.com/veelenga/dress.git"
 
-  depends_on "elixir-lang" => :build
+  depends_on "elixir" => :build
 
   def install
     system "mix deps.get"
