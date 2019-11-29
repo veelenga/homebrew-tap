@@ -3,7 +3,7 @@ class Ameba < Formula
   homepage "https://github.com/veelenga/ameba"
   url "https://github.com/veelenga/ameba/archive/v0.11.0.tar.gz"
   version "0.11.0"
-  sha256 "08f2f3a47addb3e51a9e8478ade8bfa4b82a2561a2aa15fd1abe7b2f8713a303"
+  sha256 "b402f56a74b7e4cc951be0d5da3ac466e366a1d8b4f3adfe852884375173fa68"
   head "https://github.com/veelenga/ameba.git"
 
   depends_on "crystal-lang" => :build
