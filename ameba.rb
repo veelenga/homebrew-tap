@@ -1,9 +1,9 @@
 class Ameba < Formula
   desc 'A static code analysis tool for Crystal'
   homepage 'https://github.com/veelenga/ameba'
-  url 'https://github.com/veelenga/ameba/archive/v0.13.0.tar.gz'
-  version '0.13.0'
-  sha256 '33826262a9e48f1ede313644802ba24780009e8ea471e1e45b99e03016fef82e'
+  url 'https://github.com/veelenga/ameba/archive/v0.13.1.tar.gz'
+  version '0.13.1'
+  sha256 'e22dbee65526669f17507bfdc93f3a076fd519d62264906e9c955f555bde5351'
   head 'https://github.com/veelenga/ameba.git'
 
   depends_on 'crystal-lang' => :build
