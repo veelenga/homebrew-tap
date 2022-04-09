@@ -6,8 +6,7 @@ class Ameba < Formula
   sha256 'ab178cc49e39d77781111306e91a80aa63535c54725210091e3e32c9862a227a'
   head 'https://github.com/veelenga/ameba.git'
 
-  depends_on 'crystal-lang' => :build
-
+  depends_on 'crystal-lang'
 
   def install
     system 'make'
