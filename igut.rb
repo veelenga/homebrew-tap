@@ -1,8 +1,8 @@
 class Igut < Formula
   desc "Browse, preview, and copy media from the Insta360 GO Ultra over WiFi"
   homepage "https://github.com/veelenga/insta360-go-ultra-transfer"
-  url "https://github.com/veelenga/insta360-go-ultra-transfer/releases/download/v0.1.0/insta360-go-ultra-transfer-0.1.0.tar.gz"
-  sha256 "3c6dec1393a10f077adbc3c2396d80a688117b485c20b37e044e3a42cd37a9a7"
+  url "https://github.com/veelenga/insta360-go-ultra-transfer/releases/download/v0.1.1/insta360-go-ultra-transfer-0.1.1.tar.gz"
+  sha256 "3dbfea10ba6503cbac794eedeebb2c64f24a94a1fc33c02141c96277a72dfa8b"
   license "MIT"
 
   depends_on "python@3.13"
