@@ -1,8 +1,8 @@
 class MantisShrimp < Formula
   desc "Menu bar app that watches your posture through the Mac camera"
   homepage "https://github.com/veelenga/mantis-shrimp"
-  url "https://github.com/veelenga/mantis-shrimp/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "d66676a933191d960c143534cd04ee4e1bbcc2ec2206557e119d7ff24f90df04"
+  url "https://github.com/veelenga/mantis-shrimp/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "7e389c627c9c5419dbd6df7c48eb59592dfd87598d2e37e45c95b0b5c4696ea2"
   license "MIT"
   head "https://github.com/veelenga/mantis-shrimp.git", branch: "main"
 
@@ -27,6 +27,9 @@ class MantisShrimp < Formula
     <<~EOS
       Start the app now and at every login:
         brew services start mantis-shrimp
+
+      After an update, or if you quit the app, start it again with:
+        brew services restart mantis-shrimp
 
       Leave the app's own "Launch at login" off; brew services already handles it.
       To find the app in Spotlight, link it into your Applications folder:
